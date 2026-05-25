@@ -1,0 +1,22 @@
+.customNavbar{
+    background-color: aqua;
+}
+
+.customNavbar .nav-link{
+    color: brown;
+}
+
+.customNavbar .nav-link:hover{
+    color: yellow;
+}
+
+.custCont .navbar-brand{
+    padding-left: 10%;
+}
+
+.custCont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 10%;
+}
