@@ -1,0 +1,33 @@
+.customNavbar{
+    background-color: #171543;
+}
+
+.customNavbar .nav-link{
+    font-size: 1.5em;
+    color: #ffb034;
+}
+
+.customNavbar .nav-link:hover{
+    color: #ffb034;
+    text-decoration: underline;
+}
+
+.customNavbar .nav-link:active{
+    color: #ffb034;
+}
+
+.customNavbar .nav-link:visited{
+    color: #ffb034;
+}
+
+.custCont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.logo{
+    height: 8vh;
+}

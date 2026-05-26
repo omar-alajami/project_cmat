@@ -1,5 +1,5 @@
-import '../style.css';
-import img from '../assets/Capture.png'
+import '../styles/navbar.css';
+import img from '../assets/cmat_logo_col2.png';
 import { Link } from "react-router-dom";
 
 function NavBar(){
@@ -7,7 +7,7 @@ function NavBar(){
         <nav className="navbar navbar-expand-lg customNavbar">
             <div className="custCont">
                 <Link className="navbar-brand" to="/">
-                    <img src={img} alt="hmph" />
+                    <img src={img} alt="hmph" className='logo' />
                 </Link>
 
                 <div className="ms-auto d-flex gap-5">

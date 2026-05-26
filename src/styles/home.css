@@ -1,0 +1,35 @@
+.homePage h1,
+.homePage h2,
+.homePage h3,
+.homePage h4{
+    color: #171543;
+}
+
+.homePage p{
+    font-size: 1.2em;
+}
+
+.getStarted{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.buttonPrimary{
+    background-color: #ffb034;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    color: #171543;
+    text-decoration: none;
+}
+.buttonPrimary:hover{
+    background-color: #171543;
+    color: #ffb034;
+}
+
+.butts{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
