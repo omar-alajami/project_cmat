@@ -22,10 +22,12 @@
     border-style: solid;
     border-color: #171543;
     border-width: 8px;
+    transition: transform 0.2s ease;
 }
 
 .ccard:hover{
     border-color: #ffb034;
+    transform: scale(1.02);
 }
 
 .llink:hover h2{
