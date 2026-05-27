@@ -1,0 +1,37 @@
+.container h1{
+    color: #171543;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+.formClass{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.search{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-right: none;
+    border-color: #ffb034;
+    border-radius: 30px 0 0 30px;
+    padding-left: 30px;
+}
+.search::selection{ /*get what it is its not selection*/
+    border: none;
+}
+.search::placeholder{
+    font-style: italic;
+}
+
+.searchButt{
+    height: 50px;
+    width: 80px;
+    border-radius: 0 30px 30px 0;
+    border-left: none;
+    border-color: #ffb034;
+    background-color: #ffb034;
+}

@@ -8,7 +8,7 @@ function Home(){
             <p>
                 CMAT, abbreviation for "Course Material And Tests", is a website that sums up all the courses provided by the 
                 Lebanese International University (LIU), and make all their needed material easy to access for all students (such as online 
-                textbooks, guides, summary PDFs, required software, and exam samples).
+                textbooks, syllabus, PDF guides, exam samples, etc.).
             </p>
             <div className='getStarted'>
                 <h2>

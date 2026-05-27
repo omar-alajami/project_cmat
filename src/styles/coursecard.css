@@ -25,5 +25,9 @@
 }
 
 .ccard:hover{
-    /*do after you do grid*/    
+    border-color: #ffb034;
+}
+
+.llink:hover h2{
+    color: #ffb034;
 }
