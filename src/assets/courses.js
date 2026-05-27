@@ -4,8 +4,16 @@ const courses = [
         "name": "Web and bullshit"
     },
     {
-        "id": "378",
+        "id": "CSCI378",
         "name": "Data Structure and Algorithms"
+    },
+    {
+        "id": "CSCI380",
+        "name": "Software Engineering"
+    },
+    {
+        "id": "CSCI410",
+        "name": "Mobile Applications"
     }
 ];
 

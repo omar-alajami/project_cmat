@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
+import '../styles/coursecard.css';
 
-function Card({course}){
+function CourseCard({course}){
     return (
-        <div className="card p-3">
-            <h3>{course.id}: {course.name}</h3>
-
-            <Link to={`/Courses/${course.id}`}>View</Link>
-        </div>
+        <Link to={`/Courses/${course.id}`} className="llink">
+            <div className="ccard">
+                <h2>{course.id}</h2>
+                <h4>{course.name}</h4>
+            </div>
+        </Link>
     )
 }
 
-export default Card;
+export default CourseCard;

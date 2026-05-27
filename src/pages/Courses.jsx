@@ -1,13 +1,21 @@
 import Card from '../components/CourseCard.jsx';
 import courses from '../assets/courses.js';
+import '../styles/coursesPage.css';
 
 function Courses(){
-    const course = courses[0];
     return(
-        <>
-            <h3>Courses page</h3>
-            <Card course={course}></Card>
-        </>
+        <div className='container mt-5'>
+            <h1>All Courses:</h1><br />
+            <div className='gird'>
+                {
+                    courses.map(
+                        (c) => (
+                            <Card key={c.id} course={c}></Card>
+                        )
+                    )
+                }
+            </div>
+        </div>
     )
 }
 
