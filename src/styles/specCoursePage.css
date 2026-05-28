@@ -17,3 +17,31 @@
     text-align: center;
     margin-top: 50px;
 }
+
+.clos{
+    margin-left: 36px;
+    font-size: 1.2em;
+    list-style: square;
+}
+.clos li{
+    margin-top: 10px;
+}
+.clos li::marker{
+    color: #171543;
+}
+
+.courseFound h1{
+    color: #171543;
+    text-align: center;
+    font-weight: bold;
+}
+
+.courseFound h2{
+    margin-top: 20px;
+    color: #171543;
+}
+
+.courseFound p{
+    font-size: 1.2em;
+    margin-top: 10px;
+}

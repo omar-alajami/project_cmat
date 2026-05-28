@@ -21,7 +21,7 @@ function CoursePage(){
                 </p>
                 <p className="oneline">
                     If this course exists at LIU but does not have a page here, 
-                    let us know by sending an email to <span style={{fontWeight: "bold"}}>omar.r.ajami@gmail.com</span>
+                    let us know by sending an email to <span style={{fontWeight: "bold"}}>22430396@students.liu.edu.lb</span>
                 </p>
                 <div className="butt">
                     <Button name="Go Back to Search" path="/Search"></Button>
@@ -31,8 +31,19 @@ function CoursePage(){
     }
 
     return (
-        <div className="container mt-5">
+        <div className="container mt-5 courseFound">
             <h1>{course.id}: {course.name}</h1>
+            <h2>Description:</h2>
+            <p>{course.description}</p>
+            <h2>Course Learning Outcomes (CLOs):</h2>
+            <ul className="clos">
+                {
+                    course.clos.map((clo, index) => (
+                        <li key={index}>{clo}</li>
+                    ))
+                }
+            </ul>
+
         </div>
     )
 }
