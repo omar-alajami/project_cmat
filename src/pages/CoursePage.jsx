@@ -48,7 +48,7 @@ function CoursePage(){
                 {
                     course.material.map((mat) => (
                         <li>
-                            <a target="_blank" key={mat["name"]} href={`/course_material/${mat["path"]}`}>{mat["name"]}</a>
+                            <a target="_blank" key={mat["name"]} href={`${mat["path"]}`}>{mat["name"]}</a>
                         </li>
                     ))
                 }

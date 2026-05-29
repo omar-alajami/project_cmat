@@ -8,7 +8,7 @@ import liu from '../assets/liu.png';
 function Footer(){
     return (
         <footer className='container mt-5 footer'>
-            <p>&copy; 2026 CMAT <br /> All Rights Reserved</p>
+            <p>Copyright &copy; 2026 CMAT<br /> All Rights Reserved</p>
             <div className='links'>
                 <a target='_blank' href="https://github.com/omar-alajami/project_cmat">
                     <img src={github} alt=""  className='linklog'/>
