@@ -1,0 +1,25 @@
+.footer{
+    color: #171543;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 0.85em;
+    font-weight: 200;
+}
+
+.links{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.linklog{
+    height: 25px;
+    opacity: 60%;
+    transition: opacity 0.2s ease;
+}
+
+.linklog:hover{
+    opacity: 100%;
+}

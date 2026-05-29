@@ -4,3 +4,14 @@ body,
     background-color: #e6e6e7;
     min-height: 100%;
 }
+
+.app{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.content{
+    flex: 1;
+}

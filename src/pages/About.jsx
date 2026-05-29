@@ -1,6 +1,8 @@
 function About(){
     return(
-        <h3>about page</h3>
+        <div className="container mt-5">
+            
+        </div>
     )
 }
 

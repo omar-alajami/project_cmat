@@ -5,19 +5,29 @@ import Courses from './pages/Courses';
 import Search from './pages/Search';
 import About from './pages/About';
 import CoursePage from './pages/CoursePage';
+import NotFound from './pages/NotFound';
+import Footer from './components/Footer';
+import './styles/global.css'
 
 function App() {
   return (
     <BrowserRouter>
-      <Navbar></Navbar>
+      <div className='app'>
+        <Navbar></Navbar>
 
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/Courses" element={<Courses />}></Route>
-        <Route path="/Courses/:id" element={<CoursePage />}></Route>
-        <Route path="/Search" element={<Search />}></Route>
-        <Route path="/About" element={<About />}></Route>
-      </Routes>
+        <div className='content'>
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/Courses" element={<Courses />}></Route>
+            <Route path="/Courses/:id" element={<CoursePage />}></Route>
+            <Route path="/Search" element={<Search />}></Route>
+            <Route path="/About" element={<About />}></Route>
+            <Route path="*" element={<NotFound />}></Route>
+          </Routes>
+        </div>
+
+        <Footer></Footer>
+      </div>
     </BrowserRouter>
   )
 }

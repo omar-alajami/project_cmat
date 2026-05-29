@@ -7,6 +7,12 @@ const courses = [
             "this is clo1",
             "this is clo2"
         ],
+        "material": [
+            {
+                "name": "Syllabus",
+                "path": "csci390/syllabus.docx"
+            },
+        ]
     },
     {
         "id": "CSCI378",

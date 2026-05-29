@@ -18,15 +18,15 @@
     margin-top: 50px;
 }
 
-.clos{
+.list{
     margin-left: 36px;
     font-size: 1.2em;
     list-style: square;
 }
-.clos li{
+.list li{
     margin-top: 10px;
 }
-.clos li::marker{
+.list li::marker{
     color: #171543;
 }
 

@@ -36,10 +36,20 @@ function CoursePage(){
             <h2>Description:</h2>
             <p>{course.description}</p>
             <h2>Course Learning Outcomes (CLOs):</h2>
-            <ul className="clos">
+            <ul className="list">
                 {
                     course.clos.map((clo, index) => (
                         <li key={index}>{clo}</li>
+                    ))
+                }
+            </ul>
+            <h2>Material:</h2>
+            <ul className="list">
+                {
+                    course.material.map((mat) => (
+                        <li>
+                            <a target="_blank" key={mat["name"]} href={`/course_material/${mat["path"]}`}>{mat["name"]}</a>
+                        </li>
                     ))
                 }
             </ul>
