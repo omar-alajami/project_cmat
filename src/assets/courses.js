@@ -51,6 +51,9 @@ to the Internet.`.replace(/\n/g, ' '),
                 "name": "Syllabus",
                 "path": "/course_material/csci200/csci200_syllabus.pdf"
             },
+        ],
+        "software": [
+            "Microsoft Office (word/powerpoint/excel)"
         ]
     },
     {
@@ -134,6 +137,16 @@ transition from academic to professional writing.`.replace(/\n/g, " "),
                 "name": "Book: Successful Writing at Work",
                 "path": "/course_material/engl251/Successful_writing_at_work.pdf"
             }
+        ],
+        "samples": [
+            {
+                "name": "Midterm Sample",
+                "path": "/course_material/engl251/ENGL251_Fall_2023-2024_Midterm.pdf"
+            },
+            {
+                "name": "Midterm Sample Answerkey",
+                "path": "/course_material/engl251/ENGL251_Fall_2023-2024_Midterm_answerkey.pdf"
+            }
         ]
     },
     {
@@ -165,6 +178,10 @@ networks; and elementary Programming.`.replace(/\n/g, " "),
                 "name": "Book: Flowchart and Algorithm Basics",
                 "path": "/course_material/csci205/Flowchart_and_Algorithm_Basics.pdf"
             }
+        ],
+        "software": [
+            "Java",
+            "Netbeans IDE"
         ]
     },
     {
@@ -249,6 +266,9 @@ Microsoft SQL Server DBMS.`.replace(/\n/g, " "),
         ],
         "material": [
             
+        ],
+        "software": [
+            "XAMPP"
         ]
     },
     {
@@ -279,6 +299,10 @@ foundation for the CCNA curriculum.`.replace(/\n/g, " "),
                 "name": "Book: Introduction to Networks Companion Guide (CCNAv7) (Cisco Networking Academy)",
                 "path": "/course_material/csci342/Introduction_to_Networks_Companion_Guide_CCNAv7_Cisco_Networking_Academy"
             }
+        ],
+        "software": [
+            "Cisco Packet Tracer",
+            "(optional) Wireshark"
         ]
     },
     {
@@ -317,6 +341,12 @@ project.`.replace(/\n/g, " "),
                 "name": "Arduino Workshop: A Hands-On Introduction with 65 Projects",
                 "path": "/course_material/csci373/Arduino_Workshop_A_Hands_On_Introduction_with_65_Projects.pdf"
             }
+        ],
+        "software": [
+            "Arduino IDE"
+        ],
+        "hardware": [
+            "Arduino Uno Starter Kit"
         ]
     },
     {
@@ -357,6 +387,9 @@ JavaScript.`.replace(/\n/g, " "),
                 "name": "material from w3schools.com",
                 "path": "https://www.w3shools.com"
             }
+        ],
+        "software": [
+            "Git"
         ]
     },
     {
@@ -481,6 +514,12 @@ using object oriented methods and appropriate theory.`.replace(/\n/g, " "),
                 "name": "Book: Systems Analysis and Design Methods by Witten, Benttley and Dittman.",
                 "path": "/course_material/csci380/Application_cases_in_systems_analysis_and_design.pdf"
             }
+        ],
+        "samples": [
+            {
+                "name": "Sample Final Exam",
+                "path": "/course_material/csci380/Sample_final_exam_CSCI380.pdf"
+            }
         ]
     },
     {
@@ -570,6 +609,9 @@ machine notation, analysis of sequential circuits, and sequential circuit design
                 "name": "Book: Fundamentals of Digital Logic and Microcomputer Design, by M. Rafiquzzaman",
                 "path": "/course_material/csci345/Fundamentals_of_Digital_Logic_and_Microcomputer_Design.pdf"
             }
+        ],
+        "software": [
+            "LogiSim"
         ]
     },
     {
@@ -623,6 +665,15 @@ functionality.`.replace(/\n/g, " "),
                 "name": "Syllabus",
                 "path": "/course_material/csci392/csci392_syllabus.pdf"
             }
+        ],
+        "samples": [
+            {
+                "name": "Sample Final",
+                "path": "/course_material/csci392/Sample_Final_Exam_CSCI392.pdf"
+            }
+        ],
+        "software": [
+            "Cisco Packet Tracer"
         ]
     },
     {

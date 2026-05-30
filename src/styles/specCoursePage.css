@@ -29,6 +29,9 @@
 .list li::marker{
     color: #171543;
 }
+.secondList{
+    margin-left: 36px;
+}
 
 .courseFound h1{
     color: #171543;
@@ -36,7 +39,8 @@
     font-weight: bold;
 }
 
-.courseFound h2{
+.courseFound h2,
+.courseFound h3{
     margin-top: 20px;
     color: #171543;
 }

@@ -46,14 +46,82 @@ function CoursePage(){
             <h2>Material:</h2>
             <ul className="list">
                 {
-                    course.material.map((mat) => (
+                    course.material.length > 0 
+                    ? course.material.map((mat) => (
                         <li>
                             <a target="_blank" key={mat["name"]} href={`${mat["path"]}`}>{mat["name"]}</a>
                         </li>
                     ))
+                    : <li>No material provided for this course.</li>
                 }
             </ul>
-
+            <h2>Exams/exercises:</h2>
+            <ul className="list">
+                {
+                    course["samples"]?.length > 0
+                    ? course["samples"].map((obj) => (
+                        <li>
+                            <a target="_blank" key={obj["name"]} href={`${obj["path"]}`}>{obj["name"]}</a>
+                        </li>
+                    ))
+                    : <li>No samples provided</li>
+                }
+            </ul>
+            <h2>Prerequisites:</h2>
+            <ul className="list">
+                {
+                    course["prereq"]?.length > 0
+                    ? course["prereq"].map((something) => (
+                        <li>
+                            <a href={`/Courses/${something}`}>{something}</a>
+                        </li>
+                    ))
+                    : <li>No prerequisites</li>
+                }
+            </ul>
+            <h2>Requirements:</h2>
+            {
+                (!course["software"]?.length && !course['hardware']?.length)
+                ? <p>No Requirements.</p>
+                : <>
+                    {
+                        (!course["software"]?.length)
+                        ? null
+                        : (
+                            <>
+                            <ul className="secondList">
+                                <h3>Software:</h3>
+                                <ul className="list">
+                                    {
+                                        course["software"].map((sofi) => (
+                                            <li key={sofi}>{sofi}</li>
+                                        ))
+                                    }
+                                </ul>
+                            </ul>
+                            </>
+                        )
+                    }
+                    {
+                        (!course["hardware"]?.length)
+                        ? null
+                        : (
+                            <>
+                            <ul className="secondList">
+                                <h3>Hardware:</h3>
+                                <ul className="list">
+                                    {
+                                        course["hardware"].map((sofi) => (
+                                            <li key={sofi}>{sofi}</li>
+                                        ))
+                                    }
+                                </ul>
+                            </ul>
+                            </>
+                        )
+                    }
+                </>
+            }
         </div>
     )
 }
