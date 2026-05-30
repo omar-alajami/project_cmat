@@ -641,6 +641,12 @@ dynamic programming structures, and much more.`.replace(/\n/g, " "),
                 "name": "Book: Concepts of Programming Languages by Robert W. Sebesta",
                 "path": "/course_material/csci351/Concepts_of_Programming_Languages_Robert_Sebesta.pdf"
             }
+        ],
+        "samples": [
+            {
+                "name": "Project sample",
+                "path": "/course_material/csci351/CSCI351-Project_1.pdf"
+            }
         ]
     },
     {
