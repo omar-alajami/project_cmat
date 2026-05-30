@@ -1,16 +1,28 @@
-# React + Vite
+# CMAT | ReactJS project for CSCI390
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
 
-Currently, two official plugins are available:
+CMAT, abbreviation for "Course Material And Tests", is a website that sums up all the courses provided by the Lebanese International University (LIU), and make all their needed material easy to access for all students (such as online textbooks, syllabus, PDF guides, exam samples, etc.).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Setup Instructions
 
-## React Compiler
+There's no real "setup"; anyone can access all features of the website without needing to do anything (such as login/signup or anything similar).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+If by "setup instructions" you mean how the user uses the website, they would either go to the search page and input the course code for the course they want to see, or go to the "view all courses" page and search for the course they want.
 
-## Expanding the ESLint configuration
+## Screenshots of the UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Home Page:
+![home_page](Screenshots/home_screenshot.PNG)
+
+View All Courses:
+![courses](Screenshots/courses_screenshot.PNG)
+
+Search Page:
+![search](Screenshots/search_screenshot.PNG)
+
+Specific Course Page:
+![specific_course](Screenshots/spec_course_screenshot.PNG)
+
+Searching for Course that doesn't exist:
+![coursenotfound](Screenshots/course_not_found_screenshot.PNG)
