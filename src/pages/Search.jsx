@@ -25,7 +25,7 @@ function Search(){
                 Input the code in one of the following formats: "CSCI390" or "CSCI-390" or "CSCI 390". The letters can be uppercase or lowercase. 
             </p>
             <form onSubmit={reDirect} className="formClass">
-                <input type="text" className="search" placeholder="Enter Course Code" value={userTyped} onChange={(q) => updateUserTyped(q.target.value)}/>
+                <input type="text" className="search" placeholder="Enter Course Code" value={userTyped} onChange={(text) => updateUserTyped(text.target.value)}/>
                 <button type="submit" className="searchButt">SEARCH</button>
             </form>
         </div>

@@ -20,12 +20,24 @@
     color: #ffb034;
 }
 
+.customNavbar .nav-link:focus{
+    color: #ffb034;
+}
+
 .custCont{
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logLink{
     display: flex;
     align-items: center;
-    padding-right: 10%;
-    padding-left: 10%;
+    justify-content: space-between;
+}
+
+#linkss{
+    background-color: #171543CC;
+    width: 320px;
 }
 
 .logo{

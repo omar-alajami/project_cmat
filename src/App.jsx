@@ -7,7 +7,7 @@ import About from './pages/About';
 import CoursePage from './pages/CoursePage';
 import NotFound from './pages/NotFound';
 import Footer from './components/Footer';
-import './styles/global.css'
+import './styles/global.css';
 
 function App() {
   return (

@@ -11,9 +11,6 @@ const courses = [
             "Demonstrate competence in essential Arabic grammar and morphology, including sentence parsing, verb forms, derivatives, numbers, and writing conventions.",
             "Produce clear and effective written communication through research reports, letters, essays, and personal biographies using appropriate techniques of expression and communication."
         ],
-        "prereq": [
-
-        ],
         "material": [
             {
                 "name": "Syllabus",
