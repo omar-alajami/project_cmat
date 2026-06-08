@@ -18,7 +18,7 @@ function NavBar(){
                         data-bs-toggle='offcanvas'
                         data-bs-target='#linkss'
                     >
-                        <img src={menu} alt="|||" style={{height: '50px'}}/>
+                        <img src={menu} alt="|||" style={{height: '42px'}}/>
                     </button>
 
                     <div className='offcanvas offcanvas-end' tabIndex='-1' id='linkss'>
