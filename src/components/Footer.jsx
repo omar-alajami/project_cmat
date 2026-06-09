@@ -22,7 +22,7 @@ function Footer(){
                 <a target='_blank' href="https://www.linkedin.com/">
                     <img src={linkedin} alt="" className='linklog' />
                 </a>
-                <a target='_blank' href="mailto:22430396@gmail.com">
+                <a target='_blank' href="mailto:22430396@students.liu.edu.lb">
                     <img src={mail} alt="" className='linklog'/>
                 </a>
             </div>
