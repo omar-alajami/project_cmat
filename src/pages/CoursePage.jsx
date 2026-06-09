@@ -73,7 +73,7 @@ function CoursePage(){
                     course["prereq"]?.length > 0
                     ? course["prereq"].map((something) => (
                         <li>
-                            <a href={`/Courses/${something}`}>{something}</a>
+                            <Link to={`/Courses/${something}`}>{something}</Link>
                         </li>
                     ))
                     : <li>No prerequisites</li>
