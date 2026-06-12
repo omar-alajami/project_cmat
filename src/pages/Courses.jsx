@@ -20,7 +20,7 @@ function Courses(){
             <div className='filter'>
                 <img src={filter} alt="" />
                 <p className='filtertext'>
-                    Filter Courses by Department:
+                    Filter by Department:
                 </p>
                 <select value={type} onChange={(selected) => setType(selected.target.value)}>
                     <option value="ALL">All</option>
