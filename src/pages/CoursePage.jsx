@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import courses from '../assets/courses.js';
+import courses from '../assets/courses.json';
 import '../styles/specCoursePage.css';
 import img from '../assets/404err.png';
 import Button from '../components/Button.jsx';

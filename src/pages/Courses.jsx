@@ -1,5 +1,5 @@
 import Card from '../components/CourseCard.jsx';
-import courses from '../assets/courses.js';
+import courses from '../assets/courses.json';
 import '../styles/coursesPage.css';
 import { useState } from 'react';
 import filter from '../assets/filter.png'
