@@ -14,7 +14,7 @@ const courses = [
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/arab200/arab200_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/arab200/arab200_syllabus.pdf"
             }
         ]
     },
@@ -46,7 +46,7 @@ to the Internet.`.replace(/\n/g, ' '),
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/csci200/csci200_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci200/csci200_syllabus.pdf"
             },
         ],
         "software": [
@@ -92,11 +92,11 @@ response to texts.`.replace(/\n/g, " "),
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/engl201/engl201_syllabus.pdf",
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/engl201/engl201_syllabus.pdf",
             },
             {
                 "name": "Book: Longman Academic Writing Series 4 - Essays",
-                "path": "/course_material/engl201/Longman_Academic_Writing_Series_4_Essays_with_Essential_Online_Resources_Oshima_Hogue.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/engl201/Longman_Academic_Writing_Series_4_Essays_with_Essential_Online_Resources_Oshima_Hogue.pdf"
             }
         ]
     },
@@ -128,21 +128,21 @@ transition from academic to professional writing.`.replace(/\n/g, " "),
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/engl251/engl251_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/engl251/engl251_syllabus.pdf"
             },
             {
                 "name": "Book: Successful Writing at Work",
-                "path": "/course_material/engl251/Successful_writing_at_work.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/engl251/Successful_writing_at_work.pdf"
             }
         ],
         "samples": [
             {
                 "name": "Midterm Sample",
-                "path": "/course_material/engl251/ENGL251_Fall_2023-2024_Midterm.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/engl251/ENGL251_Fall_2023-2024_Midterm.pdf"
             },
             {
                 "name": "Midterm Sample Answerkey",
-                "path": "/course_material/engl251/ENGL251_Fall_2023-2024_Midterm_answerkey.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/engl251/ENGL251_Fall_2023-2024_Midterm_answerkey.pdf"
             }
         ]
     },
@@ -169,11 +169,11 @@ networks; and elementary Programming.`.replace(/\n/g, " "),
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/csci205/csci205_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci205/csci205_syllabus.pdf"
             },
             {
                 "name": "Book: Flowchart and Algorithm Basics",
-                "path": "/course_material/csci205/Flowchart_and_Algorithm_Basics.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci205/Flowchart_and_Algorithm_Basics.pdf"
             }
         ],
         "software": [
@@ -202,11 +202,11 @@ control structures, methods, arrays, and strings.`.replace(/\n/g, " "),
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/csci250/csci250_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci250/csci250_syllabus.pdf"
             },
             {
                 "name": "Book: Introduction to Java Programming",
-                "path": "/course_material/csci250/Introduction_to_Java_Programming_and_Data_Structures.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci250/Introduction_to_Java_Programming_and_Data_Structures.pdf"
             }
         ]
     },
@@ -235,11 +235,11 @@ as writing to and reading from files.`.replace(/\n/g, " "),
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/csci300/csci300_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci300/csci300_syllabus.pdf"
             },
             {
                 "name": "Book: Introduction to Java Programming",
-                "path": "/course_material/csci250/Introduction_to_Java_Programming_and_Data_Structures.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci250/Introduction_to_Java_Programming_and_Data_Structures.pdf"
             }
         ]
     },
@@ -290,11 +290,11 @@ foundation for the CCNA curriculum.`.replace(/\n/g, " "),
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/csci342/csci342_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci342/csci342_syllabus.pdf"
             },
             {
                 "name": "Book: Introduction to Networks Companion Guide (CCNAv7) (Cisco Networking Academy)",
-                "path": "/course_material/csci342/Introduction_to_Networks_Companion_Guide_CCNAv7_Cisco_Networking_Academy"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci342/Introduction_to_Networks_Companion_Guide_CCNAv7_Cisco_Networking_Academy"
             }
         ],
         "software": [
@@ -332,11 +332,11 @@ project.`.replace(/\n/g, " "),
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/csci373/csci373_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci373/csci373_syllabus.pdf"
             },
             {
                 "name": "Arduino Workshop: A Hands-On Introduction with 65 Projects",
-                "path": "/course_material/csci373/Arduino_Workshop_A_Hands_On_Introduction_with_65_Projects.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci373/Arduino_Workshop_A_Hands_On_Introduction_with_65_Projects.pdf"
             }
         ],
         "software": [
@@ -378,7 +378,7 @@ JavaScript.`.replace(/\n/g, " "),
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/csci390/csci390_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci390/csci390_syllabus.pdf"
             },
             {
                 "name": "material from w3schools.com",
@@ -411,11 +411,11 @@ series, power series, polar coordinates and its application.`.replace(/\n/g, " "
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/math210/math210_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/math210/math210_syllabus.pdf"
             },
             {
                 "name": "Book: Thomas' Calculus",
-                "path": "/course_material/math210/Thomas_Calculus_13th_Edition.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/math210/Thomas_Calculus_13th_Edition.pdf"
             }
         ]
     },
@@ -442,11 +442,11 @@ engineering.`.replace(/\n/g, " "),
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/math225/math225_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/math225/math225_syllabus.pdf"
             },
             {
                 "name": "Book: Elementary Linear Algebra",
-                "path": "/course_material/math225/Elementary_Linear_Algebra_larson_falvo.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/math225/Elementary_Linear_Algebra_larson_falvo.pdf"
             }
         ]
     },
@@ -473,11 +473,11 @@ sorting algorithms are discussed.`.replace(/\n/g, " "),
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/csci378/csci378_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci378/csci378_syllabus.pdf"
             },
             {
                 "name": "Book: Advanced Topics in Java: Core Concepts in Data Structures",
-                "path": "/course_material/csci378/Advanced_Topics_in_Java_Core_Concepts_in_Data_Structures.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci378/Advanced_Topics_in_Java_Core_Concepts_in_Data_Structures.pdf"
             }
         ]
     },
@@ -505,17 +505,17 @@ using object oriented methods and appropriate theory.`.replace(/\n/g, " "),
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/csci380/csci380_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci380/csci380_syllabus.pdf"
             },
             {
                 "name": "Book: Systems Analysis and Design Methods by Witten, Benttley and Dittman.",
-                "path": "/course_material/csci380/Application_cases_in_systems_analysis_and_design.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci380/Application_cases_in_systems_analysis_and_design.pdf"
             }
         ],
         "samples": [
             {
                 "name": "Sample Final Exam",
-                "path": "/course_material/csci380/Sample_final_exam_CSCI380.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci380/Sample_final_exam_CSCI380.pdf"
             }
         ]
     },
@@ -544,11 +544,11 @@ concepts to real-life situations.`.replace(/\n/g, " "),
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/math310/math310_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/math310/math310_syllabus.pdf"
             },
             {
                 "name": "Book: Probability and Statistics for Engineers and Scientists",
-                "path": "/course_material/math310/Probability_and_Statistics_for_Engineers_and_Scientists.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/math310/Probability_and_Statistics_for_Engineers_and_Scientists.pdf"
             }
         ]
     },
@@ -576,7 +576,7 @@ presentations.`.replace(/\n/g, " "),
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/ssci215/ssci215_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/ssci215/ssci215_syllabus.pdf"
             }
         ]
     },
@@ -600,11 +600,11 @@ machine notation, analysis of sequential circuits, and sequential circuit design
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/csci345/csci345_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci345/csci345_syllabus.pdf"
             },
             {
                 "name": "Book: Fundamentals of Digital Logic and Microcomputer Design, by M. Rafiquzzaman",
-                "path": "/course_material/csci345/Fundamentals_of_Digital_Logic_and_Microcomputer_Design.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci345/Fundamentals_of_Digital_Logic_and_Microcomputer_Design.pdf"
             }
         ],
         "software": [
@@ -632,17 +632,17 @@ dynamic programming structures, and much more.`.replace(/\n/g, " "),
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/csci351/csci351_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci351/csci351_syllabus.pdf"
             },
             {
                 "name": "Book: Concepts of Programming Languages by Robert W. Sebesta",
-                "path": "/course_material/csci351/Concepts_of_Programming_Languages_Robert_Sebesta.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci351/Concepts_of_Programming_Languages_Robert_Sebesta.pdf"
             }
         ],
         "samples": [
             {
                 "name": "Project sample",
-                "path": "/course_material/csci351/CSCI351-Project_1.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci351/CSCI351-Project_1.pdf"
             }
         ]
     },
@@ -666,13 +666,13 @@ functionality.`.replace(/\n/g, " "),
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/csci392/csci392_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci392/csci392_syllabus.pdf"
             }
         ],
         "samples": [
             {
                 "name": "Sample Final",
-                "path": "/course_material/csci392/Sample_Final_Exam_CSCI392.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci392/Sample_Final_Exam_CSCI392.pdf"
             }
         ],
         "software": [
@@ -700,7 +700,7 @@ significant amount of programming requiring a commitment on the part of the stud
         "material": [
             {
                 "name": "Syllabus",
-                "path": "/course_material/csci410/csci410_syllabus.pdf"
+                "path": "https://vuxuckodnszuoxwueduu.supabase.co/storage/v1/object/public/course_material/csci410/csci410_syllabus.pdf"
             }
         ]
     }
