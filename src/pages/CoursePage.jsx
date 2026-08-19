@@ -34,19 +34,25 @@ function CoursePage(){
         <div className="container mt-5 courseFound">
             <h1>{course.id}: {course.name}</h1>
             <h2>Description:</h2>
-            <p>{course.description}</p>
+            {
+                course.description
+                ? <p>{course.description}</p>
+                : <p>No description provided for this course.</p>
+            }
             <h2>Course Learning Outcomes (CLOs):</h2>
             <ul className="list">
                 {
-                    course.clos.map((clo, index) => (
+                    course.clos?.length > 0
+                    ? course.clos.map((clo, index) => (
                         <li key={index}>{clo}</li>
                     ))
+                    : <li>No CLOs listed for this course.</li>
                 }
             </ul>
             <h2>Material:</h2>
             <ul className="list">
                 {
-                    course.material.length > 0 
+                    course.material?.length > 0 
                     ? course.material.map((mat) => (
                         <li>
                             <a target="_blank" key={mat["name"]} href={`${mat["path"]}`}>{mat["name"]}</a>
@@ -58,8 +64,8 @@ function CoursePage(){
             <h2>Exams/exercises:</h2>
             <ul className="list">
                 {
-                    course["samples"]?.length > 0
-                    ? course["samples"].map((obj) => (
+                    course.samples?.length > 0
+                    ? course.samples.map((obj) => (
                         <li>
                             <a target="_blank" key={obj["name"]} href={`${obj["path"]}`}>{obj["name"]}</a>
                         </li>
@@ -70,8 +76,8 @@ function CoursePage(){
             <h2>Prerequisites:</h2>
             <ul className="list">
                 {
-                    course["prereq"]?.length > 0
-                    ? course["prereq"].map((something) => (
+                    course.prereq?.length > 0
+                    ? course.prereq.map((something) => (
                         <li>
                             <Link to={`/Courses/${something}`}>{something}</Link>
                         </li>
